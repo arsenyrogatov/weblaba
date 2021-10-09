@@ -1,0 +1,500 @@
+<html>
+<head>
+    <link href="https://allfont.ru/allfont.css?fonts=lora" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Каталог - ZIPfutbolka</title>
+	<meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="styles/index.css" />
+    <link type="text/css" rel="stylesheet" href="styles/catalogstyle.css" />
+
+	<link rel="shortcut icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+	
+
+    <div class="header-panel">
+        <div class="header-panel-logo"><img class="logo" src="images/logo.png" /></div>
+        <div class="header-panel-menu">
+            <ul>
+                <a href="index.html"><li>главная</li></a>
+                <a href="about.html"><li>о компании</li></a>
+                <li class="active">каталог</li>
+                <a href="print.html"><li>печать</li></a>
+                <a href="contacts.html"><li>контакты</li></a>
+            </ul>
+        </div>
+        <div class="header-panel-contacts">
+            <div>
+                <div class="contact-icon phone">
+                    <img src="images/phone.png" width="40" height="40"/>
+                </div>
+                <div class="inline-elem contact-description">+7 (915) 136 78 68</div>
+            </div>
+            <div>
+				<div class="contact-icon mail">
+					<img src="images/mail.png" width="35" height="35"/>
+				</div>
+				<div class="inline-elem contact-description">zipfutbolka@mail.ru</div>
+			</div>
+        </div>
+    </div>
+	
+	<div class="feedback-top-panel">
+		<div class="feedback-block">
+			<div class="feedback-shadow">
+			</div>
+			<div class="feedback-image">
+				<img src="images/catalog/image1.png" height="470px"/>
+			</div>
+			<div class="feedback-text-block">
+				<div class="feedback-text-1">Почувствуйте качество!</div>
+				<div class="feedback-text-2">Оптовым клиентам мы отправим образец футболки</div>
+				<div class="feedback-text-3">бесплатно!</div>
+				<div class="feedback-button-top" onclick="showFeedbackPanel()">
+					<div class="feedback-button-decorate">			
+						<div class="feedback-button-text"> заказать обратный звонок</div>
+					</div>
+				</div>
+			</div>
+			<div class="feedback-text-block-active" style="display: none; opacity: 0;">
+				<div class="feedback-text-block-active-decorate" style="opacity: 0;"> 
+					<div class="feedback-text-block-active-main">
+						<div class="feedback-text-block-active-main-caption">Отправьте свои контактные данные,</br>и мы перезвоним Вам в ближайшие 5 минут.
+						</div>
+						<div class="feedback-text-block-active-main-name-input">
+							<input class="text-input" type="text" placeholder="Ваше Имя" onchange="privacyInputCheck()"/>
+						</div>
+						<div class="feedback-text-block-active-main-phone-input">
+							<input class="text-input" type="text" placeholder="Ваш телефон" onchange="privacyInputCheck()"/>
+						</div>
+						<div class="feedback-text-block-active-main-privacy">
+							<label class="privacy-input">
+							<input class="custom-input" type="checkbox" onclick="privacyInputCheck()"/>
+							<div class="custom-input-text"> Отправляя свои контактные данные, я соглашаюсь с&nbsp;<a href="privacy.pdf">Политикой конфиденциальности</a></div>
+						</div>
+						<div class="feedback-text-block-active-main-button">
+							<input class="button-input" type="button" value="отправить" disabled="true"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a id="catalog"></a>
+	<div class="catalog-caption-panel">
+		<div class="contacts-caption-left-line-block">
+			<div class="contacts-middle-line">
+			</div>	
+		</div>
+		<div class="catalog-caption-text">Каталог товаров
+		<div class="contacts-bottom-line">
+			</div>	
+		</div>
+		<div class="contacts-caption-right-line-block">
+			<div class="contacts-bottom-line">
+			</div>	
+		</div>	
+	</div>
+	
+	<div class="catalog-panel">
+		<div class="catalog-block">
+			<div class="decor left-decor">
+				<div class="left-decor-top">
+				</div>
+				<div class="left-decor-bottom">
+				</div>
+			</div>
+			
+			<div class="decor right-decor">
+				<div class="right-decor-top">
+				</div>
+				<div class="right-decor-bottom">
+				</div>
+			</div>
+			
+			<div class="items-block">
+				<div class="item">
+					<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/man-tsh.png"/>
+						</div>
+						<div class="item-caption">
+						Футболка с коротким рукавом
+						</div>		
+						<div class="item-description">
+						для мужчин
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							<div class="color-circle orange-color"></div>
+							<div class="color-circle blue-color"></div>
+							<div class="color-circle lightblue-color"></div>
+							<div class="color-circle grey-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle purple-color"></div>
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Суприм)
+						</div>
+						<div class="description-block">
+						Футболка мужская с коротким рукавом подойдёт для занятий спортом и в качестве базовой вещи гардероба.</br>
+						Рибана на круглом вырезе  с добавлением 5 % лайкры позволяет сохранить форму и не растянуться. Стойкое качественное окрашивание сохраняет цвет и предотвращает от выгорания.   
+						</div>
+						<div class="density-block">
+						Плотность 155- 160 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								150 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item item2">
+					<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/man-tsh-long.png"/>
+						</div>
+						<div class="item-caption">
+						Футболка с длинным рукавом
+						</div>		
+						<div class="item-description">
+						для мужчин
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							<div class="color-circle orange-color"></div>
+							<div class="color-circle blue-color"></div>
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Суприм)
+						</div>
+						<div class="description-block">
+						Футболка мужская с длинным рукавом подойдёт для занятий спортом и в качестве базовой вещи гардероба.</br>
+						Рибана на круглом вырезе  с добавлением 5 % лайкры позволяет сохранить форму и не растянуться. Стойкое качественное окрашивание сохраняет цвет и предотвращает от выгорания.    
+						</div>
+						<div class="density-block">
+						Плотность 155- 160 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								150 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+				<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/man-polo.png"/>
+						</div>
+						<div class="item-caption">
+						Футболка поло
+						</div>		
+						<div class="item-description">
+						для мужчин
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							<div class="color-circle orange-color"></div>
+							<div class="color-circle blue-color"></div>
+							<div class="color-circle lightblue-color"></div>
+							<div class="color-circle grey-color"></div>
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Пенье)
+						</div>
+						<div class="description-block">
+						Знаменитая футболка поло - неотъемлемая часть мужского гардероба. Прямой крой , боковые разрезы, отложный воротник и три прозрачные пуговицы на планке. </br>
+						Футболки поло отшиваются для магазинов одежды и для компаний, которые желают сделать корпоративный стиль своих сотрудников более элегантным.     
+						</div>
+						<div class="density-block">
+						Плотность 180 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								150 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/wman-tsh.png"/>
+						</div>
+						<div class="item-caption">
+						Футболка с коротким рукавом
+						</div>		
+						<div class="item-description">
+						для женщин
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Суприм)
+						</div>
+						<div class="description-block">
+						Футболка женская, приталенная с коротким маленьким рукавчиком. Подойдет на каждый день и для занятий спортом.</br>
+						Рибана на круглом вырезе  с добавлением 5 % лайкры позволяет сохранить форму и не растянуться. Стойкое качественное окрашивание сохраняет цвет и предотвращает от выгорания.    
+						</div>
+						<div class="density-block">
+						Плотность 155- 160 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								130 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item item2">
+					<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/child-tsh.png"/>
+						</div>
+						<div class="item-caption">
+						Футболка с коротким рукавом
+						</div>		
+						<div class="item-description">
+						для детей
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Суприм)
+						</div>
+						<div class="description-block">
+						Футболка из качественного хлопка, очень мягкая , с круглым вырезом , прямого кроя. Подойдёт для занятий спортом и в качестве базовой вещи гардероба.</br>
+						Стойкое качественное окрашивание сохраняет цвет и предотвращает от выгорания.     
+						</div>
+						<div class="density-block">
+						Плотность 155- 160 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								130 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+				<div class="item-header">
+						<div class="item-img-block">
+							<img class="item-img" src="images/catalog/goods/uni-cap.png"/>
+						</div>
+						<div class="item-caption">
+						Бейсболка
+						</div>		
+						<div class="item-description">
+						one size
+						</div>		
+						
+					</div>
+					<div class="colors-block">
+							<div class="color-circle white-color"></div>
+							<div class="color-circle black-color"></div>
+							<div class="color-circle pink-color"></div>
+							<div class="color-circle green-color"></div>
+							<div class="color-circle yellow-color"></div>
+							<div class="color-circle red-color"></div>
+							
+						</div>
+					<div class="item-description-block">
+						<div class="material-block">
+						Состав: 100% Хлопок (Саржа)
+						</div>
+						<div class="description-block">
+						Бейсболка однотонная полувелюровая.</br>
+						Модель - Пятиклинка. </br>
+						Размер регулируется металлической застёжкой.    
+						</div>
+						<div class="density-block">
+						Плотность 210 гр. м² (в зависимости от цвета)
+						</div>
+						<div class="price-block">
+							<div class="price-text">
+								Цена:
+							</div>
+							<div class="price-num">
+								150 руб.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+	
+	<div class="table-price-caption-panel">
+		<div class="contacts-caption-left-line-block">
+			<div class="contacts-bottom-line">
+			</div>	
+		</div>
+		<div class="table-price-caption-text">Таблица цен
+		<div class="contacts-bottom-line">
+			</div>	
+		</div>
+		<div class="contacts-caption-right-line-block">
+			<div class="table-price-middle-line">
+			</div>			
+		</div>	
+	</div>
+	
+	<div class="price-panel">
+		<div class="table-panel">
+			<div class="table-block">
+				<div class="table-td head-td">Тип / Количество</div>
+				<div class="table-td head-td">до 100 шт.</div>
+				<div class="table-td head-td">100-500 шт.</div>
+				<div class="table-td head-td">500-1000 шт.</div>
+				<div class="table-td head-td">более 1000 шт.</div>
+			</div>
+		</div>
+		<div class="table-panel">
+			<div class="table-block">
+				<div class="table-td capt-td">Футболка с коротким рукавом</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+			</div>
+		</div>
+		<div class="table-panel">
+			<div class="table-block">
+				<div class="table-td capt-td">Футболка с длинным рукавом</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+			</div>
+		</div>
+		<div class="table-panel">
+			<div class="table-block">
+				<div class="table-td capt-td">Футболка поло</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+			</div>
+		</div>
+		<div class="table-panel">
+			<div class="table-block">
+				<div class="table-td capt-td">Бейсболка</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+				<div class="table-td">text</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-panel">
+		<div class="links">
+			<div class="links-panel">
+			<div class="logo-big">
+				<img height="180px" width="180px" src="images/logobig.png"/>
+			</div>
+			<div class="links-block1">
+			<p><a href="index.html">Главная</a></p>
+			<p><a href="about.html">О компании</a></p>
+			<p><a href="catalog.html">Каталог</a></p>
+			<p><a href="print.html">Печать</a></p>
+			<p><a href="contacts.html">Контакты</a></p>
+			</div>
+			<div class="links-block2">
+			<p><a href="catalog.html#catalog">Футболки</a></p>
+			<p><a href="catalog.html#catalog">Футболки с длинным рукавом</a></p>
+			<p><a href="catalog.html#catalog">Футболки поло</a></p>
+			<p><a href="catalog.html#catalog">Бейсболки</a></p>
+			</div>
+			<div class="contacts">	
+			<div>
+                <div class="contact-icon phone">
+                    <img src="images/phone.png" width="40" height="40"/>
+                </div>
+                <div class="inline-elem contact-description">+7 (915) 136 78 68</div>
+            </div>
+            <div>
+				<div class="contact-icon mail">
+					<img src="images/mail.png" width="35" height="35"/>
+				</div>
+				<div class="inline-elem contact-description">zipfutbolka@mail.ru</div>
+			</div>
+			</div>
+			</div>
+		</div>
+		<div class="copyright">&copy; 2009-2020 Компания «ZIPfutbolka». Все права защищены</div>
+	</div>
+	
+	<div class="blackout-panel">
+		<div class="zoom-image-panel">
+			<div class="close-block" onclick="hideZoom()">
+				<img src="images/close-img.png"/>
+			</div>
+			<img class="zoom-image" />
+		</div>
+	</div>
+</body>
+</html>

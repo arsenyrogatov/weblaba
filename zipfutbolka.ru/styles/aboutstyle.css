@@ -1,0 +1,183 @@
+.about-company-panel
+		{
+			min-width: 1187px;
+			margin-top:50px;
+			height: 61px;
+			position: relative;
+		}
+		.about-company-line
+		{
+			border-top: 4px solid #F0F2F7;
+			box-shadow: 2px 2px 5px rgba(0, 0, 50, 0.1), -1px -1px 5px rgba(255, 255, 255, 0.9), inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+			position: absolute;
+			top: 15px;
+			left: 0;
+			width: 48.5%;
+		}
+		.about-company-caption
+		{	
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50%;
+		}
+		.about-company-line-bottom
+		{
+			margin-top: 20px;
+			border-top: 4px solid #F0F2F7;
+			box-shadow: 2px 2px 5px rgba(0, 0, 50, 0.1), -1px -1px 5px rgba(255, 255, 255, 0.9), inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+		}
+		.caption
+		{
+			font-family: Lora;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 30px;
+			line-height: 38px;
+		}
+		
+		.about-company-text-panel
+		{
+			margin-top: 20px;
+			margin-left:auto;
+			margin-right: auto;
+			height: 568px;
+			width: 1187px;
+			position: relative;
+		}
+		.image-decorate
+		{
+			position: absolute;
+		}
+		.img1
+		{
+			left: 6px;
+			top: 90px;
+		}
+		.img2
+		{
+			left: 357px;
+			top: 73px;
+		}
+		.img3
+		{
+			left: 201px;
+			top: 227px;
+		}
+		.img4
+		{
+			left: 463px;
+			top: 315px;
+		}
+		.text-block
+		{
+			font-family: Lora;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 26px;
+			width: 50%;
+			height: 254px;
+			position: absolute;
+			right:0;
+			top: 130px;
+		}
+		
+		
+		.why-panel
+		{
+			height:61px;
+			width: 100%;
+			min-width: 1187px;
+			margin-top: 70px;
+			position:relative;
+		}
+		.why-left-block
+		{
+			position: absolute;
+			bottom:0;
+			left:0;
+			width: 50%;
+			border-bottom: 4px solid #F0F2F7;
+			box-shadow: 2px 2px 5px rgba(0, 0, 50, 0.1), -1px -1px 5px rgba(255, 255, 255, 0.9), inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+		}
+		.why-right-block
+		{
+			position: absolute;
+			bottom:0;
+			right:0;
+			width: 50%;
+			height: 100%;
+		}
+		.why-caption-block
+		{
+			width: 180px;
+			height: 100%;
+			float: left;
+			display: block;
+		}
+		.why-right-line-block
+		{
+			height: 100%;
+			display: flex;
+			position: relative;
+		}
+		.why-line-bottom
+		{
+			position: absolute;
+			width:180px;
+			bottom:0;
+			border-bottom: 4px solid #F0F2F7;
+			box-shadow: 2px 2px 5px rgba(0, 0, 50, 0.1), -1px -1px 5px rgba(255, 255, 255, 0.9), inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+		}
+		.why-line-right
+		{
+		position: absolute;
+			right: 0;
+			width: 95%;
+			height: 0;
+			margin-top: 19px;
+			border-bottom: 4px solid #F0F2F7;
+			box-shadow: 2px 2px 5px rgba(0, 0, 50, 0.1), -1px -1px 5px rgba(255, 255, 255, 0.9), inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+			
+		}
+		
+		.why-text-panel
+		{
+			position: relative;
+			width: 1181px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 127px;
+		}
+		.why-text-block
+		{
+			font-family: Lora;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 26px;
+			width: 50%;
+			position: absolute;
+			right: 0;
+			top: 0px;
+			
+		}
+		.sub-text-block p
+		{
+			margin-bottom: 20px;	
+			font-weight: bold;
+			margin-top: 47px;
+		}
+		.top-block p
+		{
+			margin-top: 0;
+		}
+		.why-image
+		{
+			position: absolute;
+			left: 108px;
+			top: -87px;
+		}
+		
+		
